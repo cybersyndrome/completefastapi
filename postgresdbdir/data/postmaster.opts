@@ -1,0 +1,1 @@
+/Applications/Postgres.app/Contents/Versions/14/bin/postgres "-D" "/Users/kendo/Dev/FastAPI_/postgresdbdir/data" "-p" "5431"

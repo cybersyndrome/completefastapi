@@ -1,0 +1,240 @@
+2023-01-22 03:44:00.766 EST [22823] LOG:  starting PostgreSQL 14.2 on aarch64-apple-darwin20.6.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2023-01-22 03:44:00.768 EST [22823] LOG:  listening on IPv6 address "::1", port 5431
+2023-01-22 03:44:00.768 EST [22823] LOG:  listening on IPv4 address "127.0.0.1", port 5431
+2023-01-22 03:44:00.769 EST [22823] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5431"
+2023-01-22 03:44:00.772 EST [22824] LOG:  database system was shut down at 2023-01-22 03:39:56 EST
+2023-01-22 03:44:00.775 EST [22823] LOG:  database system is ready to accept connections
+2023-01-22 03:44:00.919 EST [22831] FATAL:  database "kendo" does not exist
+2023-01-22 03:45:49.336 EST [22857] FATAL:  database "kendo" does not exist
+2023-01-22 03:45:49.352 EST [22858] FATAL:  database "kendo" does not exist
+2023-01-22 03:46:16.577 EST [22860] FATAL:  database "kendo" does not exist
+2023-01-22 03:46:57.763 EST [22874] FATAL:  database "kendo" does not exist
+2023-01-22 04:05:28.341 EST [22823] LOG:  received fast shutdown request
+2023-01-22 04:05:28.342 EST [22823] LOG:  aborting any active transactions
+2023-01-22 04:05:28.342 EST [23023] FATAL:  terminating connection due to administrator command
+2023-01-22 04:05:28.342 EST [23165] FATAL:  terminating connection due to administrator command
+2023-01-22 04:05:28.342 EST [23021] FATAL:  terminating connection due to administrator command
+2023-01-22 04:05:28.342 EST [23137] FATAL:  terminating connection due to administrator command
+2023-01-22 04:05:28.342 EST [22902] FATAL:  terminating connection due to administrator command
+2023-01-22 04:05:28.343 EST [22823] LOG:  background worker "logical replication launcher" (PID 22830) exited with exit code 1
+2023-01-22 04:05:28.345 EST [22825] LOG:  shutting down
+2023-01-22 04:05:28.352 EST [22823] LOG:  database system is shut down
+2023-01-29 01:37:09.641 EST [85013] LOG:  starting PostgreSQL 14.2 on aarch64-apple-darwin20.6.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2023-01-29 01:37:09.643 EST [85013] LOG:  listening on IPv6 address "::1", port 5431
+2023-01-29 01:37:09.643 EST [85013] LOG:  listening on IPv4 address "127.0.0.1", port 5431
+2023-01-29 01:37:09.644 EST [85013] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5431"
+2023-01-29 01:37:09.653 EST [85014] LOG:  database system was shut down at 2023-01-22 04:05:28 EST
+2023-01-29 01:37:09.659 EST [85013] LOG:  database system is ready to accept connections
+2023-01-29 01:37:09.784 EST [85021] FATAL:  database "kendo" does not exist
+2023-01-29 01:38:10.708 EST [85034] FATAL:  role "postgres" does not exist
+2023-01-29 01:38:55.341 EST [85043] FATAL:  database "kendo" does not exist
+2023-01-29 01:48:50.235 EST [85118] ERROR:  relation "users" does not exist at character 15
+2023-01-29 01:48:50.235 EST [85118] STATEMENT:  select * from Users;
+2023-01-29 01:49:21.583 EST [85118] ERROR:  relation "users" does not exist at character 15
+2023-01-29 01:49:21.583 EST [85118] STATEMENT:  select * from users;
+2023-01-29 01:49:54.234 EST [85118] ERROR:  syntax error at or near "user" at character 1
+2023-01-29 01:49:54.234 EST [85118] STATEMENT:  user TodoApplicationDatabase;
+	select * from users;
+2023-01-29 01:50:03.680 EST [85118] ERROR:  syntax error at or near "use" at character 1
+2023-01-29 01:50:03.680 EST [85118] STATEMENT:  use TodoApplicationDatabase;
+	select * from users;
+2023-01-29 01:50:11.915 EST [85118] ERROR:  syntax error at or near "use" at character 1
+2023-01-29 01:50:11.915 EST [85118] STATEMENT:  use TodoApplicationDatabase;
+	select * from users;
+2023-01-29 01:51:03.478 EST [85118] ERROR:  relation "users" does not exist at character 16
+2023-01-29 01:51:03.478 EST [85118] STATEMENT:  
+	select * from users;
+2023-01-29 01:51:38.402 EST [85118] ERROR:  relation "users" does not exist at character 16
+2023-01-29 01:51:38.402 EST [85118] STATEMENT:  
+	select * from Users;
+2023-01-29 01:51:42.252 EST [85118] ERROR:  relation "users" does not exist at character 16
+2023-01-29 01:51:42.252 EST [85118] STATEMENT:  
+	select * from Users;
+2023-01-29 01:52:00.207 EST [85118] ERROR:  relation "users" does not exist at character 16
+2023-01-29 01:52:00.207 EST [85118] STATEMENT:  
+	select * from users;
+2023-01-29 01:53:21.757 EST [85063] ERROR:  relation "users" does not exist at character 15
+2023-01-29 01:53:21.757 EST [85063] STATEMENT:  select * from users;
+2023-01-29 01:53:30.905 EST [85063] ERROR:  relation "users" does not exist at character 15
+2023-01-29 01:53:30.905 EST [85063] STATEMENT:  select * from Users;
+2023-01-29 01:53:31.771 EST [85063] ERROR:  relation "users" does not exist at character 15
+2023-01-29 01:53:31.771 EST [85063] STATEMENT:  select * from Users;
+2023-01-29 01:53:32.371 EST [85063] ERROR:  relation "users" does not exist at character 15
+2023-01-29 01:53:32.371 EST [85063] STATEMENT:  select * from Users;
+2023-01-29 01:54:36.922 EST [85063] ERROR:  relation "users" does not exist at character 15
+2023-01-29 01:54:36.922 EST [85063] STATEMENT:  select * from Users;
+2023-01-29 01:54:38.188 EST [85063] ERROR:  relation "users" does not exist at character 15
+2023-01-29 01:54:38.188 EST [85063] STATEMENT:  select * from Users;
+2023-01-29 01:57:14.864 EST [85118] ERROR:  relation "users" does not exist at character 16
+2023-01-29 01:57:14.864 EST [85118] STATEMENT:  
+	select * from Users;
+2023-01-29 02:03:31.820 EST [85118] ERROR:  syntax error at or near "TABLES" at character 6
+2023-01-29 02:03:31.820 EST [85118] STATEMENT:  DROP TABLES IF EXISTS users;
+	
+	CREATE TABLE users (
+		id SERIAL,
+		email varchar(200) DEFAULT NULL,
+		username varchar(45) DEFAULT NULL,
+		first_name varchar(45) DEFAULT NULL,
+		last_name varchar(45) DEFAULT NULL,
+		hashed_password varchar(200) DEFAULT NULL,
+		is_active boolean DEFAULT NULL,
+		PRIMARY KEY (id)
+	);
+2023-01-29 02:08:39.552 EST [85046] ERROR:  cannot drop table "Users" because other objects depend on it
+2023-01-29 02:08:39.552 EST [85046] DETAIL:  constraint todos_owner_id_fkey on table todos depends on table "Users"
+2023-01-29 02:08:39.552 EST [85046] HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2023-01-29 02:08:39.552 EST [85046] STATEMENT:  DROP TABLE IF EXISTS public."Users";
+2023-01-29 02:11:09.238 EST [85046] ERROR:  cannot drop table "Users" because other objects depend on it
+2023-01-29 02:11:09.238 EST [85046] DETAIL:  constraint todos_owner_id_fkey on table todos depends on table "Users"
+2023-01-29 02:11:09.238 EST [85046] HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2023-01-29 02:11:09.238 EST [85046] STATEMENT:  DROP TABLE IF EXISTS public."Users";
+2023-01-29 02:15:49.296 EST [85392] ERROR:  relation "users" does not exist at character 15
+2023-01-29 02:15:49.296 EST [85392] STATEMENT:  select * from users;
+2023-01-29 02:16:08.513 EST [85392] ERROR:  relation "users" does not exist at character 15
+2023-01-29 02:16:08.513 EST [85392] STATEMENT:  select * from Users;
+2023-01-29 02:16:10.390 EST [85392] ERROR:  relation "users" does not exist at character 15
+2023-01-29 02:16:10.390 EST [85392] STATEMENT:  select * from Users;
+2023-01-29 02:16:43.737 EST [85407] ERROR:  relation "users" does not exist at character 15
+2023-01-29 02:16:43.737 EST [85407] STATEMENT:  select * from users
+2023-01-29 02:16:55.401 EST [85407] ERROR:  relation "users" does not exist at character 15
+2023-01-29 02:16:55.401 EST [85407] STATEMENT:  select * from users;
+2023-01-29 02:18:14.390 EST [85423] ERROR:  relation "users" does not exist at character 15
+2023-01-29 02:18:14.390 EST [85423] STATEMENT:  select * from users;
+2023-01-29 02:18:26.453 EST [85423] ERROR:  relation "users" does not exist at character 15
+2023-01-29 02:18:26.453 EST [85423] STATEMENT:  select * from Users;
+2023-01-29 02:38:06.994 EST [85906] FATAL:  database "kendo" does not exist
+2023-01-29 02:38:07.037 EST [85908] FATAL:  database "kendo" does not exist
+2023-01-29 02:38:30.551 EST [85913] FATAL:  database "kendo" does not exist
+2023-01-29 02:38:30.882 EST [85915] FATAL:  database "kendo" does not exist
+2023-01-29 02:38:30.964 EST [85918] FATAL:  database "kendo" does not exist
+2023-01-29 02:48:21.219 EST [85502] ERROR:  column "email" does not exist at character 8
+2023-01-29 02:48:21.219 EST [85502] STATEMENT:  select email from user;
+2023-01-29 02:52:14.688 EST [85502] ERROR:  column "email" does not exist at character 8
+2023-01-29 02:52:14.688 EST [85502] STATEMENT:  select email from user;
+2023-01-29 02:52:22.477 EST [85502] ERROR:  column "email" does not exist at character 8
+2023-01-29 02:52:22.477 EST [85502] STATEMENT:  select email from user;
+2023-01-29 02:57:11.058 EST [86385] ERROR:  duplicate key value violates unique constraint "pg_class_relname_nsp_index"
+2023-01-29 02:57:11.058 EST [86385] DETAIL:  Key (relname, relnamespace)=(Users_id_seq, 2200) already exists.
+2023-01-29 02:57:11.058 EST [86385] STATEMENT:  
+	CREATE TABLE "Users" (
+		id SERIAL NOT NULL, 
+		email VARCHAR, 
+		username VARCHAR, 
+		first_name VARCHAR, 
+		last_name VARCHAR, 
+		hashed_password VARCHAR, 
+		is_active BOOLEAN, 
+		PRIMARY KEY (id)
+	)
+	
+	
+2023-01-29 02:58:58.185 EST [85013] LOG:  received fast shutdown request
+2023-01-29 02:58:58.186 EST [85013] LOG:  aborting any active transactions
+2023-01-29 02:58:58.187 EST [85502] FATAL:  terminating connection due to administrator command
+2023-01-29 02:58:58.187 EST [85423] FATAL:  terminating connection due to administrator command
+2023-01-29 02:58:58.187 EST [86383] FATAL:  terminating connection due to administrator command
+2023-01-29 02:58:58.187 EST [85407] FATAL:  terminating connection due to administrator command
+2023-01-29 02:58:58.187 EST [86281] FATAL:  terminating connection due to administrator command
+2023-01-29 02:58:58.187 EST [86317] FATAL:  terminating connection due to administrator command
+2023-01-29 02:58:58.187 EST [85046] FATAL:  terminating connection due to administrator command
+2023-01-29 02:58:58.187 EST [85039] FATAL:  terminating connection due to administrator command
+2023-01-29 02:58:58.188 EST [85013] LOG:  background worker "logical replication launcher" (PID 85020) exited with exit code 1
+2023-01-29 02:58:58.192 EST [85015] LOG:  shutting down
+2023-01-29 02:58:58.218 EST [85013] LOG:  database system is shut down
+2023-01-29 02:59:07.424 EST [86431] LOG:  starting PostgreSQL 14.2 on aarch64-apple-darwin20.6.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2023-01-29 02:59:07.427 EST [86431] LOG:  listening on IPv6 address "::1", port 5431
+2023-01-29 02:59:07.427 EST [86431] LOG:  listening on IPv4 address "127.0.0.1", port 5431
+2023-01-29 02:59:07.427 EST [86431] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5431"
+2023-01-29 02:59:07.435 EST [86432] LOG:  database system was shut down at 2023-01-29 02:58:58 EST
+2023-01-29 02:59:07.440 EST [86431] LOG:  database system is ready to accept connections
+2023-01-29 03:00:35.368 EST [86444] ERROR:  table "Users" does not exist
+2023-01-29 03:00:35.368 EST [86444] STATEMENT:  DROP TABLE "public"."Users"
+2023-01-29 03:00:38.525 EST [86444] ERROR:  relation "public.Users_id_seq" does not exist at character 66
+2023-01-29 03:00:38.525 EST [86444] STATEMENT:  SELECT TRUE as relhasoids FROM pg_attribute WHERE
+	    attrelid = '"public"."Users_id_seq"'::regclass AND
+	    attname = 'oid' AND
+	    NOT attisdropped
+2023-01-29 03:00:38.894 EST [86444] ERROR:  relation "public.Users_id_seq" does not exist at character 109
+2023-01-29 03:00:38.894 EST [86444] STATEMENT:  
+	      SELECT *, pg_get_constraintdef(oid, true) as pretty_source
+	      FROM pg_constraint WHERE conrelid = '"public"."Users_id_seq"'::regclass
+	    
+2023-01-29 03:00:48.565 EST [86444] ERROR:  relation "public.Users" does not exist at character 66
+2023-01-29 03:00:48.565 EST [86444] STATEMENT:  SELECT TRUE as relhasoids FROM pg_attribute WHERE
+	    attrelid = '"public"."Users"'::regclass AND
+	    attname = 'oid' AND
+	    NOT attisdropped
+2023-01-29 03:00:48.898 EST [86444] ERROR:  relation "public.Users" does not exist at character 109
+2023-01-29 03:00:48.898 EST [86444] STATEMENT:  
+	      SELECT *, pg_get_constraintdef(oid, true) as pretty_source
+	      FROM pg_constraint WHERE conrelid = '"public"."Users"'::regclass
+	    
+2023-01-29 03:02:08.074 EST [86490] ERROR:  duplicate key value violates unique constraint "pg_class_relname_nsp_index"
+2023-01-29 03:02:08.074 EST [86490] DETAIL:  Key (relname, relnamespace)=(Users_id_seq, 2200) already exists.
+2023-01-29 03:02:08.074 EST [86490] STATEMENT:  
+	CREATE TABLE "Users" (
+		id SERIAL NOT NULL, 
+		email VARCHAR, 
+		username VARCHAR, 
+		first_name VARCHAR, 
+		last_name VARCHAR, 
+		hashed_password VARCHAR, 
+		is_active BOOLEAN, 
+		PRIMARY KEY (id)
+	)
+	
+	
+2023-01-29 03:11:17.500 EST [86431] LOG:  received fast shutdown request
+2023-01-29 03:11:17.501 EST [86431] LOG:  aborting any active transactions
+2023-01-29 03:11:17.501 EST [86444] FATAL:  terminating connection due to administrator command
+2023-01-29 03:11:17.501 EST [86448] FATAL:  terminating connection due to administrator command
+2023-01-29 03:11:17.501 EST [86441] FATAL:  terminating connection due to administrator command
+2023-01-29 03:11:17.501 EST [86576] FATAL:  terminating connection due to administrator command
+2023-01-29 03:11:17.501 EST [86644] FATAL:  terminating connection due to administrator command
+2023-01-29 03:11:17.501 EST [86536] FATAL:  terminating connection due to administrator command
+2023-01-29 03:11:17.501 EST [86553] FATAL:  terminating connection due to administrator command
+2023-01-29 03:11:17.503 EST [86431] LOG:  background worker "logical replication launcher" (PID 86438) exited with exit code 1
+2023-01-29 03:11:17.506 EST [86433] LOG:  shutting down
+2023-01-29 03:11:17.517 EST [86431] LOG:  database system is shut down
+2023-01-29 03:13:22.151 EST [86686] LOG:  starting PostgreSQL 14.2 on aarch64-apple-darwin20.6.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2023-01-29 03:13:22.153 EST [86686] LOG:  listening on IPv6 address "::1", port 5431
+2023-01-29 03:13:22.153 EST [86686] LOG:  listening on IPv4 address "127.0.0.1", port 5431
+2023-01-29 03:13:22.154 EST [86686] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5431"
+2023-01-29 03:13:22.160 EST [86687] LOG:  database system was shut down at 2023-01-29 03:11:17 EST
+2023-01-29 03:13:22.164 EST [86686] LOG:  database system is ready to accept connections
+2023-01-29 03:13:22.236 EST [86694] FATAL:  database "kendo" does not exist
+2023-01-29 03:13:41.554 EST [86876] FATAL:  database "kendo" does not exist
+2023-01-29 03:13:52.086 EST [86879] FATAL:  database "kendo" does not exist
+2023-01-29 03:17:04.524 EST [86933] FATAL:  database "kendo" does not exist
+2023-01-29 03:22:21.987 EST [87086] FATAL:  database "kendo" does not exist
+2023-01-29 03:23:14.642 EST [87050] ERROR:  database "TodoApplicationDatabase" already exists
+2023-01-29 03:23:14.642 EST [87050] STATEMENT:  CREATE DATABASE "TodoApplicationDatabase"
+	    WITH
+	    OWNER = kendo
+	    ENCODING = 'UTF8'
+	    CONNECTION LIMIT = -1
+	    IS_TEMPLATE = False;
+	
+2023-01-29 03:26:03.655 EST [87147] FATAL:  database "kendo" does not exist
+2023-01-29 03:31:27.225 EST [87276] FATAL:  database "kendo" does not exist
+2023-01-29 03:31:27.300 EST [87279] FATAL:  database "kendo" does not exist
+2023-01-29 03:31:50.245 EST [87364] FATAL:  database "kendo" does not exist
+2023-01-29 03:39:29.739 EST [87555] FATAL:  database "kendo" does not exist
+2023-01-29 03:39:29.829 EST [87558] FATAL:  database "kendo" does not exist
+2023-01-29 03:43:14.259 EST [87639] FATAL:  database "kendo" does not exist
+2023-01-29 03:50:24.832 EST [87869] FATAL:  database "kendo" does not exist
+2023-01-29 03:50:24.930 EST [87872] FATAL:  database "kendo" does not exist
+2023-01-29 03:54:13.098 EST [88009] FATAL:  database "kendo" does not exist
+2023-01-29 03:54:13.157 EST [88012] FATAL:  database "kendo" does not exist
+2023-01-29 04:08:30.016 EST [88408] FATAL:  role "postgres" does not exist
+2023-01-29 04:08:30.016 EST [88406] FATAL:  role "postgres" does not exist
+2023-01-29 04:11:08.632 EST [88530] LOG:  could not receive data from client: Connection reset by peer
+2023-01-29 04:11:08.632 EST [88530] LOG:  unexpected EOF on client connection with an open transaction
+2023-01-29 04:14:57.704 EST [88624] FATAL:  database "kendo" does not exist
+2023-01-29 04:14:57.796 EST [88627] FATAL:  database "kendo" does not exist
+2023-01-29 04:22:24.175 EST [86686] LOG:  received fast shutdown request
+2023-01-29 04:22:24.176 EST [86686] LOG:  aborting any active transactions
+2023-01-29 04:22:24.178 EST [86686] LOG:  background worker "logical replication launcher" (PID 86693) exited with exit code 1
+2023-01-29 04:22:24.178 EST [86688] LOG:  shutting down
+2023-01-29 04:22:24.186 EST [86686] LOG:  database system is shut down
