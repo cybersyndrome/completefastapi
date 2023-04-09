@@ -10,7 +10,7 @@ class Users(Base):
     username = Column(String(20), unique=True, index=True)
     first_name = Column(String(20))
     last_name = Column(String(20))
-    hashed_password = Column(String(20))
+    hashed_password = Column(String(200))
     is_active = Column(Boolean, default=True)
     # phone_number = Column(String)
     # address_id = Column(Integer, ForeignKey("address.id"), nullable=True) #is the foriegn key correct?
