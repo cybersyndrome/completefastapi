@@ -6,11 +6,11 @@ from database import Base
 class Users(Base):
     __tablename__ = "users"
     id = Column(Integer, primary_key=True, index=True)
-    email = Column(String, unique=True, index=True)
-    username = Column(String, unique=True, index=True)
-    first_name = Column(String)
-    last_name = Column(String)
-    hashed_password = Column(String)
+    email = Column(String(15), unique=True, index=True)
+    username = Column(String(20), unique=True, index=True)
+    first_name = Column(String(20))
+    last_name = Column(String(20))
+    hashed_password = Column(String(20))
     is_active = Column(Boolean, default=True)
     # phone_number = Column(String)
     # address_id = Column(Integer, ForeignKey("address.id"), nullable=True) #is the foriegn key correct?
@@ -23,8 +23,8 @@ class Todos(Base):
     __tablename__ = "todos"
 
     id          = Column(Integer, primary_key=True, index=True)
-    title       = Column(String)
-    description = Column(String)
+    title       = Column(String(20))
+    description = Column(String(100))
     priority    = Column(Integer)
     complete    = Column(Boolean, default=False)
     owner_id    = Column(Integer, ForeignKey("users.id"))
