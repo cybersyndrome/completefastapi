@@ -177,7 +177,7 @@ async def logout(request: Request):
 async def register(request: Request):
     return templates.TemplateResponse('register.html', {"request": request}) 
 
-@router.post("/register", response_class=HTMLResponse)
+@router.post("/register/", response_class=HTMLResponse)
 async def register_user(request: Request, username: str = Form(...), email: str = Form(...),
                         firstname: str = Form(...), lastname: str = Form(...),
                         password: str = Form(...), password2: str = Form(...),
